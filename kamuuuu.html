@@ -1,0 +1,82 @@
+<html>
+<meta charset='UTF-8'/><meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/><meta content='IE=edge' http-equiv='X-UA-Compatible'/><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet"><script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script><link href="https://kamuuu.likeadream.repl.co/style.css" rel="stylesheet" type="text/css" /><script src="https://kamuuu.likeadream.repl.co/script.js"></script>
+<head>
+<!-- 
+This code was made by Rayya R!
+Blog: https://sinkronin.com
+Instagram: @rayyarrr
+TikTok: @rayyarr_
+Telegram: @rayyarr
+WhatsApp: 6282130626142
+-->
+</head>
+<body>
+<!-- Ganti Wallpaper --><style>
+body{background-image: url("https://i.postimg.cc/Pf3JdTHq/1.jpg");}
+@keyframes anim {0% {background-size: 100% 100%;}25% {background-size: 110% 110%;} 50% {background-size: 122% 122%;} 75% {background-size: 110% 110%;} 100% {background-size: 100% 100%;}}
+</style>
+
+<div id="konten">
+
+<input class='chatMenu hidden' id='offchatMenu' type='checkbox' />
+<div class="bodyblur"></div>
+<div class='chatBox'>
+  <div id='data' class='chatContent'>
+    <div class='chatText'>
+      <!-- Pesan -->
+      <span id='text1'>Hai manisnya Akuu <3</span>
+      <span id='text2'>Aku mau bilang nih</span>
+      <span id='text3'>Maaf Nggh Untuk Semuanya &#9829;</span>
+      <span id='text4'>Semakin lama hubungan kita semakin jauh</span>
+      <span id='text5'>Jangan Banyak Banyak Ngelamun aku pukul loh ><</span>
+      <span id='text6'>Banyakin senyumnya &#129395;</span>
+      <span id='text7'>I love You cantikku &#9829; &#9829; &#9829;</span>
+      <span id='text8'>Ohh iyaaaa</span>
+      <span id='text9'>Coba pencet LOVE ini~ <label class="lovein" onclick="selesai();">&#9829;</label></span>
+    </div>
+  </div>
+</div>
+
+<div id="foto"><div class="image">
+<img id="photo" src="https://i.postimg.cc/zXNZhvZZ/hati.png" width="200px" height="200px"/></div>
+<span id="textlv"></span></div>
+<div id="contTom"><a class='button whatsapp' onClick='bukaWa();'><i class='icon whatsapp'></i>Kirim</a></div>
+</div>
+
+<script type="text/javascript">
+//Ucapan Terakhir
+var a=0,finish; finish = "Ilove You Cantikku";
+
+//Opsi WhatsApp
+ function bukaWa(){window.location = "https://api.whatsapp.com/send?6285749754038=&text=I Love You Too <3"} 
+ 
+function play() {
+  //Link Audio Bisa Diganti
+  var audio = new Audio('https://happy.likeadream.repl.co/music.mp3');
+  audio.play();
+}
+            const swals = Swal.mixin({
+                allowOutsideClick: false,
+            });
+            async function mulai(){              
+                    await swals.fire('Halo!');
+                    await swals.fire('Lihat ini sampai akhir ya &#129396;');                   
+                    setTimeout(check,1000);setTimeout(teks1,1000);play();
+                }
+            
+//Mulai
+mulai()
+</script>
+<script>
+function teks1(){document.getElementById('text1').style.display = "inline-block";document.getElementById('text1').style.opacity = "1"; setTimeout(teks2,2200);}
+function teks2(){document.getElementById('text2').style.display = "inline-block";document.getElementById('text2').style.opacity = "1"; setTimeout(teks3,2200);scroll()}
+function teks3(){document.getElementById('text3').style.display = "inline-block";document.getElementById('text3').style.opacity = "1"; setTimeout(teks4,2200);scroll()}
+function teks4(){document.getElementById('text4').style.display = "inline-block";document.getElementById('text4').style.opacity = "1"; setTimeout(teks5,2200);scroll()}
+function teks5(){document.getElementById('text5').style.display = "inline-block";document.getElementById('text5').style.opacity = "1"; setTimeout(teks6,2200);scroll()}
+function teks6(){document.getElementById('text6').style.display = "inline-block";document.getElementById('text6').style.opacity = "1"; setTimeout(teks7,2200);scroll()}
+function teks7(){document.getElementById('text7').style.display = "inline-block";document.getElementById('text7').style.opacity = "1"; setTimeout(teks8,2200);scroll()}
+function teks8(){document.getElementById('text8').style.display = "inline-block";document.getElementById('text8').style.opacity = "1"; setTimeout(teks9,2200);scroll()}
+function teks9(){document.getElementById('text9').style.display = "inline-block";document.getElementById('text9').style.opacity = "1"; scroll()}         
+</script>
+</body>
+</html>
